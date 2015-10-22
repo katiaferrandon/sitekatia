@@ -101,7 +101,7 @@
         			
         			<!--FORME DU FORMULAIRE-->
 
-        <form action="/ma-page-de-traitement" method="post">
+        <form action="#" id="mailbox">
     	<div class="traitement">
         	<label for="nom">Nom :</label>
         	<input type="text" id="nom" />
@@ -115,6 +115,10 @@
        	 <textarea id="message"></textarea>
     	</div>
 		</form>
+		<div id="error_message" class="hidden">
+		<p>Oups votre message n'a pas pu être envoyé !</p>
+		<div id="success_message" class="hidden">
+		<p>Super ! Votre message est envoyé. Merci</p>
 
      	 </div>
      	 <div class="modal-footer">

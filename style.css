@@ -26,9 +26,9 @@ header {
 	font-size: 15px;
 	margin: 10px;
 }
+.hidden {
+	display: none;
 
-#chang{
-	padding-top:50%;
 }
 
 textarea {
