@@ -5,7 +5,7 @@ body {
 header {
 	height: 300px;
 	position: relative;
-	background: url(images/cataratas-iguazu.png) no-repeat center center;
+	background: url(photos/cataratas-iguazu.png) no-repeat center center;
 	background-size: cover;
 }
 /*MODAL*/
@@ -154,6 +154,11 @@ footer {
 	}
 
 }
+
+/* Version Tablette 
+@media (min-width:321px) and (max-width:959px) {
+
+}*/
 
 
 
