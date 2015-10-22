@@ -1,0 +1,166 @@
+body {
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+}
+header {
+	height: 300px;
+	position: relative;
+	background: url(images/cataratas-iguazu.png) no-repeat center center;
+	background-size: cover;
+}
+/*MODAL*/
+.btn-primary {
+	border-color: #F5F5F5;
+	background-color: #F5F5F5;
+	color:black;
+	font-size: 14px;
+}
+.btn-primary:hover {
+	background-color: white;
+	color: black;
+	border: none;
+	font-size: 14px;
+}
+/*FORMULAIRE*/
+.traitement {
+	font-size: 15px;
+	margin: 10px;
+}
+
+#chang{
+	padding-top:50%;
+}
+
+textarea {
+	margin-top:20px;
+	padding
+}
+h1 {
+	font-size: 10px;
+	color:white;
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+}
+body div li {
+	text-decoration: none;
+	color: gray;
+}
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+a:visited {
+	text-decoration: none;
+	color: gray;
+}
+h2 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: transparent;
+}
+
+
+article {
+	text-align: center;
+	line-height: 20px;
+	font-family:'Molengo', sans-serif;
+	font-size: 20px;
+	background-color: #F5F5F5;
+	border-radius: 5%;
+	padding: 5%;
+}
+.placement {
+	padding-top: 50px;
+	padding-left: 30px;
+	border-radius: 30%;
+}
+.logos {
+	display: inline;
+	margin-top: 40px;
+	
+	}
+.social {
+	text-align: right;
+}
+
+	/* Barre du bas */ 
+
+.fond_transparent {
+	margin-top: 70px; 
+	border: 2px;
+	height: 250px;
+	width: auto;
+	background-color: #F5F5F5;
+	border-radius: 10%;
+	color: #87CEFA;
+}
+
+
+.section {
+	padding: 5%;
+}
+.separator {
+	border-right: 1px solid black;
+	height: 5px;
+	margin: 2%;
+}
+
+
+
+footer div li {
+	display: inline;
+}
+footer {
+	text-align: center;
+}
+
+
+/* Version Mobile */ 
+
+@media (max-width:320px)  {
+	h2 {
+		font-size: 20px;
+	}
+	article {
+		font-size: 12px;
+	}
+	.position {
+		text-align: right;
+	}
+	.logos {
+		width: 10%;
+		padding-left: 0;
+	}
+	.section {
+		font-size: 10px;
+	}
+	h3 {
+		font-size: 12px;
+	}
+	.placement {
+		padding-top: 0;
+		padding-left: 0;
+		width: 300px;
+	}
+
+	.fond_transparent {
+		font-size: 10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
