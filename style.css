@@ -26,14 +26,13 @@ header {
 	font-size: 15px;
 	margin: 10px;
 }
-.hidden {
+.hidden_message {
 	display: none;
 
 }
 
 textarea {
 	margin-top:20px;
-	padding
 }
 h1 {
 	font-size: 10px;
@@ -155,10 +154,14 @@ footer {
 
 }
 
-/* Version Tablette 
+/*Version Tablette */
 @media (min-width:321px) and (max-width:959px) {
-
-}*/
+	.fond_transparent {
+		font-size: 15px;
+		line-height: 15px;
+		padding-bottom: 10%;
+	}
+}
 
 
 
